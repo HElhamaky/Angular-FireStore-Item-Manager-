@@ -1,6 +1,6 @@
 <div *ngIf="items?.length > 0 ;else noItems">
     <ul *ngFor="let item of items" class="collection">
-        <li class="collection-item">{{item.title}}: <strong>{{item.description}}</strong> </li>
+        <li class="collection-item">{{item.id}}: <strong>{{item.description}}</strong> </li>
     </ul>
 </div>
 
