@@ -17,7 +17,8 @@
                                 <input type="text" placeholder="Add Description" [(ngModel)]= "item.description" name="description">
                             </div>
                             <input type="submit" value="Update Item" class="btn orange">
-                            <button (click)= "deleteItem($event, item)" class="btn red">Delete Item</button>
+                            <button
+                            style="margin-left: 5px" (click)= "deleteItem($event, item)" class="btn red">Delete Item</button>
                         </div>
             </form>
         </div>
